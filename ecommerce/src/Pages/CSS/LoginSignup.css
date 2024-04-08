@@ -1,0 +1,130 @@
+.loginsignup{
+   width: 100%;
+   height: 100vh;
+   padding-top: 50px;
+   background-image: linear-gradient( rgba(243, 179, 217, 0.75),
+                    rgba(246, 241, 245, 0.75)),url(C:\Users\12112\OneDrive\Desktop\project\ecommerce\src\Components\Assets\shop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginsignup-container{
+    width: 580px;
+    height: 450px;
+    background-color: white;
+    margin: auto;
+    padding: 50px ;
+    padding-left: 40px;
+  
+    
+}
+.loginsignup-container h1{
+    margin: 2px 0px;
+
+}
+.loginsignup-feilds{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 20px;
+}
+.loginsignup-feilds input{
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid #c9c9c9;
+    color: #5c5c5c;
+    font-size: 18px;
+    
+}
+.loginsignup-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    margin-top: 30px;
+    background: #ff4141;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.loginsignup-login{
+    margin-top:20px ;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsignup-feilds p{
+    color: #ff4141;
+}
+@media (max-width:1280px) {
+    .loginsignup{
+        padding-top: 50px;
+    }
+    .loginsignup-container{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .loginsignup-container h1{
+        margin: 10px 0px;
+    }
+    .loginsignup-feilds{
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .loginsignup-feilds input{
+        height: 65px;
+        width:93%;
+    }
+    .loginsignup-container button{
+        width: 100%;
+    }
+    .loginsignup-login{
+        font-size: 16px;
+        
+    }
+    .loginsignup-login span{
+        cursor: pointer;
+    }
+    .loginsignup-agree{
+        font-size: 14px;
+        gap: 10px;
+    }
+}
+@media (max-width: 800px) {
+    .loginsignup{
+        height: 75vh;
+    }
+    .loginsignup-container{
+        padding: 20px 30px;
+        margin-bottom: 20px;
+        
+    }
+    .loginsignup-container h1{
+        font-size: 24px;
+    }
+    .loginsignup-feilds{
+        margin-top: 20px;
+    }
+    .loginsignup-feilds input{
+        height: 50px;
+    }
+    .loginsignup-container button{
+        height: 50px;
+        font-size: 16px;
+    }
+}
